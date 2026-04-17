@@ -1,0 +1,142 @@
+{
+  "common": {
+    "appName": "iLoveMarkdown",
+    "description": "Document ↔ Markdown conversion tool",
+    "supportEmail": "support@ilovemarkdown.org"
+  },
+  "navigation": {
+    "home": "Home",
+    "fileUpload": "File Conversion",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signup": "Signup",
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Document ↔ Markdown Conversion",
+    "subtitle": "Support bidirectional conversion between PDF, Word, and Markdown, simple operation, accurate conversion, completely free to use",
+    "convertNow": "Convert Now",
+    "viewPro": "View Pro Version"
+  },
+  "fileUpload": {
+    "title": "Document ↔ Markdown Conversion",
+    "subtitle": "Support bidirectional conversion between PDF, Word, and Markdown, simple operation, accurate conversion",
+    "conversionType": "Conversion Type",
+    "batchProcessing": "Batch Processing",
+    "selectFile": "Select File",
+    "selectMultipleFiles": "Select Multiple Files",
+    "startConversion": "Start Conversion",
+    "converting": "Converting...",
+    "uploading": "Uploading: {{progress}}%",
+    "convertingText": "Converting...",
+    "fileSelected": "Selected: {{fileName}} ({{fileSize}} MB)",
+    "filesSelected": "Selected {{count}} files:",
+    "preview": "File Preview",
+    "previewFirstFile": "File Preview (First File)",
+    "generatingPreview": "Generating preview...",
+    "cannotPreview": "Cannot preview this file type",
+    "batchModeOn": "Enable Batch Mode",
+    "batchModeOff": "Disable Batch Mode",
+    "batchConversionComplete": "Batch conversion completed",
+    "convertedFiles": "Successfully converted {{count}} files",
+    "conversionSuccess": "Conversion successful",
+    "conversionSuccessMessage": "File has been successfully converted, downloading...",
+    "conversionFailed": "Conversion failed",
+    "conversionFailedMessage": "An error occurred during file conversion, please try again",
+    "noFileSelected": "Please select a file",
+    "noFilesSelected": "Please select files to convert",
+    "fileTypeNotSupported": "File type not supported",
+    "fileTypeErrorMessage": "Please select the correct file type: {{types}}",
+    "fileTooLarge": "File too large",
+    "fileTooLargeMessage": "Free version supports file size limit of 10MB",
+    "freeVersionLimit": "Free version limit: file size ≤ 10MB, daily conversion limit 10 times"
+  },
+  "pricing": {
+    "title": "Pick your pricing",
+    "subtitle": "Choose between Stripe, LemonSqueezy or Polar as your payment provider. Just add your Product IDs! Try it out below with test credit card number",
+    "testCard": "4242 4242 4242 4242",
+    "freePlan": "Free",
+    "freePlanDescription": "Basic features for personal users",
+    "freePlanFeatures": [
+      "File size limit 10MB",
+      "Daily conversion limit 10 times",
+      "Basic conversion features",
+      "Standard support"
+    ],
+    "proPlan": "Pro",
+    "proPlanDescription": "Advanced features for professional users",
+    "proPlanFeatures": [
+      "File size limit 50MB",
+      "Unlimited conversion times",
+      "Batch processing feature",
+      "Priority conversion queue",
+      "Format optimization",
+      "Priority customer support"
+    ],
+    "creditsPlan": "10 Credits",
+    "creditsPlanDescription": "One-time purchase of 10 extra conversion times",
+    "creditsPlanFeatures": [
+      "Can be used for any conversion type",
+      "No expiration date",
+      "Suitable for free version users"
+    ],
+    "buyPlan": "Buy plan",
+    "loginToBuy": "Log in to buy plan",
+    "manageSubscription": "Manage Subscription",
+    "errorProcessingPayment": "Error processing payment. Please try again later."
+  },
+  "howToUse": {
+    "title": "How to Use",
+    "step1": "Select conversion type (e.g., PDF → Markdown)",
+    "step2": "Upload the file to be converted (free version maximum 10MB)",
+    "step3": "Click the 'Start Conversion' button",
+    "step4": "Wait for conversion to complete, automatically download the conversion result"
+  },
+  "features": {
+    "bidirectionalConversion": "Bidirectional Conversion",
+    "bidirectionalConversionDescription": "Support bidirectional conversion between PDF, Word, and Markdown, meeting various document processing needs",
+    "freeToUse": "Free to Use",
+    "freeToUseDescription": "Basic conversion features are completely free, with a daily limit of 10 conversions, meeting the needs of individual users",
+    "simpleOperation": "Simple Operation",
+    "simpleOperationDescription": "Drag and drop to upload files, one-click conversion, automatic download of results, no complex operations required",
+    "accurateConversion": "Accurate Conversion",
+    "accurateConversionDescription": "Based on Microsoft MarkItDown technology, ensuring conversion quality and format accuracy",
+    "secureReliable": "Secure and Reliable",
+    "secureReliableDescription": "Files are automatically deleted after 72 hours, no storage of user privacy data, secure and guaranteed",
+    "multiFormatSupport": "Multi-format Support",
+    "multiFormatSupportDescription": "Support multiple formats such as PDF, Word, Markdown, meeting different scenario needs",
+    "proFeatures": "Pro Features",
+    "proFeaturesDescription": "Unlimited conversions, batch processing, large file support, ad-free and other advanced features",
+    "globalAccess": "Global Access",
+    "globalAccessDescription": "Deployed on overseas servers, users worldwide can access and use it quickly"
+  },
+  "testimonials": {
+    "developer": "Developer Xiaoming",
+    "developerRole": "Frontend Engineer",
+    "developerQuote": "iLoveMarkdown makes it very easy for me to extract content from PDF documents, the converted Markdown format is clean and tidy, saving me a lot of time.",
+    "contentCreator": "Content Creator Xiaohong",
+    "contentCreatorRole": "Technical Blogger",
+    "contentCreatorQuote": "As a blogger, I often need to convert documents between Word and Markdown, iLoveMarkdown's bidirectional conversion feature is simply great!",
+    "student": "Student Xiaoli",
+    "studentRole": "Computer Science Student",
+    "studentQuote": "The free version's conversion times fully meet my needs, and the conversion quality is high, it's a great helper for my studies and assignments."
+  },
+  "faq": {
+    "question1": "What file formats does iLoveMarkdown support?",
+    "answer1": "iLoveMarkdown supports bidirectional conversion between PDF, Word, and Markdown, including PDF→MD, Word→MD, MD→PDF, MD→Word.",
+    "question2": "What are the limitations of the free version?",
+    "answer2": "The free version supports single file conversion (≤10MB), with a daily conversion limit of 10 times, providing basic conversion features.",
+    "question3": "Is the file secure?",
+    "answer3": "We attach great importance to user privacy, uploaded files will be automatically deleted within 72 hours, and we will not store user privacy data.",
+    "question4": "What are the advantages of the Pro version?",
+    "answer4": "The Pro version provides unlimited conversions, batch processing, large file support (≤50MB), ad-free, priority conversion, format optimization and other advanced features."
+  },
+  "footer": {
+    "app": "App",
+    "company": "Company",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

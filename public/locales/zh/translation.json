@@ -1,0 +1,142 @@
+{
+  "common": {
+    "appName": "iLoveMarkdown",
+    "description": "文档↔Markdown转换工具",
+    "supportEmail": "support@ilovemarkdown.org"
+  },
+  "navigation": {
+    "home": "首页",
+    "fileUpload": "文件转换",
+    "pricing": "价格",
+    "login": "登录",
+    "signup": "注册",
+    "account": "账户",
+    "logout": "退出"
+  },
+  "hero": {
+    "title": "文档 ↔ Markdown 转换",
+    "subtitle": "支持PDF、Word与Markdown的双向转换，操作简单，转换精准，完全免费使用",
+    "convertNow": "立即转换",
+    "viewPro": "查看Pro版"
+  },
+  "fileUpload": {
+    "title": "文档 ↔ Markdown 转换",
+    "subtitle": "支持PDF、Word与Markdown的双向转换，操作简单，转换精准",
+    "conversionType": "转换类型",
+    "batchProcessing": "批量处理",
+    "selectFile": "选择文件",
+    "selectMultipleFiles": "选择多个文件",
+    "startConversion": "开始转换",
+    "converting": "转换中...",
+    "uploading": "上传中: {{progress}}%",
+    "convertingText": "正在转换...",
+    "fileSelected": "已选择: {{fileName}} ({{fileSize}} MB)",
+    "filesSelected": "已选择 {{count}} 个文件:",
+    "preview": "文件预览",
+    "previewFirstFile": "文件预览 (第一个文件)",
+    "generatingPreview": "正在生成预览...",
+    "cannotPreview": "无法预览此文件类型",
+    "batchModeOn": "开启批量模式",
+    "batchModeOff": "关闭批量模式",
+    "batchConversionComplete": "批量转换完成",
+    "convertedFiles": "已成功转换 {{count}} 个文件",
+    "conversionSuccess": "转换成功",
+    "conversionSuccessMessage": "文件已成功转换，正在下载...",
+    "conversionFailed": "转换失败",
+    "conversionFailedMessage": "文件转换过程中出现错误，请重试",
+    "noFileSelected": "请选择文件",
+    "noFilesSelected": "请选择要转换的文件",
+    "fileTypeNotSupported": "文件类型不支持",
+    "fileTypeErrorMessage": "请选择正确的文件类型: {{types}}",
+    "fileTooLarge": "文件过大",
+    "fileTooLargeMessage": "免费版支持的文件大小限制为10MB",
+    "freeVersionLimit": "免费版限制：文件大小 ≤ 10MB，每日转换限额 10 次"
+  },
+  "pricing": {
+    "title": "选择价格方案",
+    "subtitle": "选择Stripe、LemonSqueezy或Polar作为您的支付提供商。只需添加您的产品ID！请使用测试信用卡号进行测试",
+    "testCard": "4242 4242 4242 4242",
+    "freePlan": "免费版",
+    "freePlanDescription": "适合个人用户的基础功能",
+    "freePlanFeatures": [
+      "文件大小限制 10MB",
+      "每日转换限额 10 次",
+      "基础转换功能",
+      "标准支持"
+    ],
+    "proPlan": "Pro版",
+    "proPlanDescription": "适合专业用户的高级功能",
+    "proPlanFeatures": [
+      "文件大小限制 50MB",
+      "无限转换次数",
+      "批量处理功能",
+      "优先转换队列",
+      "格式优化",
+      "优先客户支持"
+    ],
+    "creditsPlan": "10 次转换",
+    "creditsPlanDescription": "一次性购买 10 次额外转换次数",
+    "creditsPlanFeatures": [
+      "可用于任何转换类型",
+      "无过期日期",
+      "适用于免费版用户"
+    ],
+    "buyPlan": "购买方案",
+    "loginToBuy": "登录购买",
+    "manageSubscription": "管理订阅",
+    "errorProcessingPayment": "处理付款时出错。请稍后再试。"
+  },
+  "howToUse": {
+    "title": "如何使用",
+    "step1": "选择转换类型（如 PDF → Markdown）",
+    "step2": "上传要转换的文件（免费版最大 10MB）",
+    "step3": "点击「开始转换」按钮",
+    "step4": "等待转换完成，自动下载转换结果"
+  },
+  "features": {
+    "bidirectionalConversion": "双向转换",
+    "bidirectionalConversionDescription": "支持PDF、Word与Markdown的双向转换，满足各种文档处理需求",
+    "freeToUse": "免费使用",
+    "freeToUseDescription": "基础转换功能完全免费，每日10次转换限额，满足个人用户需求",
+    "simpleOperation": "操作简单",
+    "simpleOperationDescription": "拖拽上传文件，一键转换，自动下载结果，无需复杂操作",
+    "accurateConversion": "转换精准",
+    "accurateConversionDescription": "基于Microsoft MarkItDown技术，保证转换质量和格式准确性",
+    "secureReliable": "安全可靠",
+    "secureReliableDescription": "文件72小时自动删除，不存储用户隐私数据，安全有保障",
+    "multiFormatSupport": "多格式支持",
+    "multiFormatSupportDescription": "支持PDF、Word、Markdown等多种格式，满足不同场景需求",
+    "proFeatures": "Pro版功能",
+    "proFeaturesDescription": "无限转换、批量处理、大文件支持、无广告等高级功能",
+    "globalAccess": "全球访问",
+    "globalAccessDescription": "海外服务器部署，全球用户均可快速访问和使用"
+  },
+  "testimonials": {
+    "developer": "开发者小明",
+    "developerRole": "前端工程师",
+    "developerQuote": "iLoveMarkdown让我从PDF文档中提取内容变得非常简单，转换后的Markdown格式干净整洁，节省了我大量时间。",
+    "contentCreator": "内容创作者小红",
+    "contentCreatorRole": "技术博主",
+    "contentCreatorQuote": "作为一名博主，我经常需要在Word和Markdown之间转换文档，iLoveMarkdown的双向转换功能简直太棒了！",
+    "student": "学生小李",
+    "studentRole": "计算机专业学生",
+    "studentQuote": "免费版的转换次数完全满足我的需求，转换质量也很高，是我学习和作业的好帮手。"
+  },
+  "faq": {
+    "question1": "iLoveMarkdown支持哪些文件格式？",
+    "answer1": "iLoveMarkdown支持PDF、Word与Markdown的双向转换，包括PDF→MD、Word→MD、MD→PDF、MD→Word。",
+    "question2": "免费版有什么限制？",
+    "answer2": "免费版支持单文件转换（≤10MB），每日转换限额为10次，提供基础转换功能。",
+    "question3": "文件安全吗？",
+    "answer3": "我们非常重视用户隐私，上传的文件会在72小时内自动删除，不会存储用户的隐私数据。",
+    "question4": "Pro版有哪些优势？",
+    "answer4": "Pro版提供无限转换、批量处理、大文件支持（≤50MB）、无广告、优先转换、格式优化等高级功能。"
+  },
+  "footer": {
+    "app": "应用",
+    "company": "公司",
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}
