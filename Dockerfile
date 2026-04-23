@@ -1,17 +1,20 @@
-# --------------- 最终可用版 ---------------
+# 构建阶段
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# 安装系统依赖
+# 安装依赖
 RUN apk add --no-cache curl bash
 
-# 官方唯一正确安装 Wasp 的方式（只有这个能成功）
-RUN curl -sSL https://get.wasp-lang.dev/installer.sh | sh -s -- -v 0.19.0
+# 安装 Wasp 并强制加入 PATH（解决你报的警告！）
+RUN curl -sSL https://get.wasp-lang.dev/installer.sh | sh
 ENV PATH="/root/.local/bin:$PATH"
 
-# 安装依赖
+# 验证是否安装成功
+RUN wasp --version
+
+# 安装项目依赖
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
 # 复制项目
 COPY . .
