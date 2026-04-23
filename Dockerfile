@@ -1,26 +1,26 @@
-# 构建阶段
+# --------------- 最终可用版 ---------------
 FROM node:20-alpine AS builder
 WORKDIR /app
 
 # 安装系统依赖
-RUN apk add --no-cache bash
+RUN apk add --no-cache curl bash
 
-# 官方新版：npm 全局安装Wasp CLI（不再用curl脚本！）
-RUN npm config set registry https://registry.npmmirror.com \
-    && npm install -g @wasp-lang/wasp-cli
+# 官方唯一正确安装 Wasp 的方式（只有这个能成功）
+RUN curl -sSL https://get.wasp-lang.dev/installer.sh | sh -s -- -v 0.19.0
+ENV PATH="/root/.local/bin:$PATH"
 
-# 安装项目依赖
+# 安装依赖
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
-# 拷贝全部代码
+# 复制项目
 COPY . .
 
-# 生产环境打包
+# 构建
 ENV WASP_ENV=production
 RUN wasp build
 
-# 纯净运行镜像
+# 运行阶段
 FROM node:20-alpine
 WORKDIR /app
 COPY --from=builder /app/.wasp/build .
